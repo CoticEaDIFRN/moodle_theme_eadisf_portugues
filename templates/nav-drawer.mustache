@@ -1,0 +1,12 @@
+{{!
+    @template theme_boost/nav-drawer
+
+
+    Example context (json): {}
+}}
+<div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex {{^navdraweropen}}closed{{/navdraweropen}}" aria-hidden="{{#navdraweropen}}false{{/navdraweropen}}{{^navdraweropen}}true{{/navdraweropen}}" tabindex="-1">
+  <div class="logo-isf" style="height: 75px; border-bottom: 1px solid #cad9cb;">
+    <img class="logo_isf" src="{{{ config.wwwroot }}}/theme/boost_isf_portugues/pix/logosemfronteiras.png" style="height: 60px; display: block; margin-left: auto; margin-right: auto;" alt="Logo do Idioma Sem Fronteiras"/>
+  </div>
+    {{> theme_boost_isf_portugues/flat_navigation }}
+</div>
